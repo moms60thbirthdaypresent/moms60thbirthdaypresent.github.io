@@ -1,0 +1,30 @@
+@font-face { font-family: lato; 
+			 src: url('./fonts/lato/Lato-Light.ttf'); } 
+ @font-face { font-family: playfair-display; 
+ 			 src: url('./fonts/playfair/PlayfairDisplay-VariableFont_wght.ttf'); } 
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 5%;
+	padding: 0 10% 0 10%;
+	text-align: center;
+}
+
+h1 {
+	font-family: playfair-display;
+}
+
+h2 {
+	font-family: lato;
+
+}
+
+#kitten {
+	margin: 0 auto;
+	width: 100%;
+}
+
+.reasons {
+	margin-top: 3%;
+}

@@ -379,6 +379,9 @@ window.onload = function(e) {
 	    if (diffDays > 366) {
 	    	diffDays = diffDays - (Math.floor(diffDays / 366) * 366)
 	    }
+	    var image = document.createElement("IMG")
+	    image.setAttribute('src', './kittens/cat' + diffDays + '.jpeg');
+	    image.classList.add('image');
+	    document.getElementById('kitten').appendChild(image);
 	    document.getElementById('love-reason').innerHTML = reasons[diffDays - 1];
-
 }
