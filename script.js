@@ -380,7 +380,7 @@ window.onload = function(e) {
 	    	diffDays = diffDays - (Math.floor(diffDays / 366) * 366)
 	    }
 	    var image = document.createElement("IMG")
-	    image.setAttribute('src', './kittens/cat' + diffDays + '.jpeg');
+	    image.setAttribute('src', './kittens/cat' + Math.ceil(diffDays / 1.85) + '.jpeg');
 	    image.classList.add('image');
 	    document.getElementById('kitten').appendChild(image);
 	    document.getElementById('love-reason').innerHTML = reasons[diffDays - 1];
